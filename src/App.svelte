@@ -7,7 +7,15 @@
 </script>
 
 <style>
+  :global(body) {
+    margin: 0;
+    padding: 0;
+  }
 
+  .container {
+    width: 80%;
+    margin: 4em auto;
+  }
 </style>
 
 <Header />
